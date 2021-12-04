@@ -8,4 +8,4 @@ k3os:
   - "--cluster-init"
   token: hydra.den.cluster
   labels:
-  - "k3os.io/upgrade": latest
+    k3os.io/upgrade: latest
