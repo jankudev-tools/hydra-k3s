@@ -1,0 +1,11 @@
+ssh_authorized_keys:
+- ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICotPf+k0WyorMdIeEkyak9vgESyWVfvlncI71GZ/gKP tjanku@dragon
+hostname: hydra-worker-04
+k3os:
+  password: $1$eRsjp1ti$fdCUG/yeVlrKz5t3phKvK0
+  k3s_args:
+  - agent
+  server_url: https://hydra-master-01.den:6443
+  token: hydra.den.cluster
+  labels:
+    k3os.io/upgrade: enabled
