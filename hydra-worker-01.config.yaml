@@ -8,4 +8,4 @@ k3os:
   server_url: https://hydra-master-01.den:6443
   token: hydra.den.cluster
   labels:
-  - k3os.io/upgrade: latest
+  - k3os.io/upgrade: enabled
