@@ -1,0 +1,8 @@
+ssh_authorized_keys:
+- ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAICotPf+k0WyorMdIeEkyak9vgESyWVfvlncI71GZ/gKP tjanku@dragon
+hostname: hydra-master-01
+k3os:
+  password: $1$eRsjp1ti$fdCUG/yeVlrKz5t3phKvK0
+  k3s_args:
+  - server
+  - "--cluster-init"
