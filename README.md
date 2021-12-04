@@ -1,8 +1,8 @@
-= Howto =
-== Preparation ==
+# Howto
+## Preparation
 Issues creating bootable USB from Windows 10 - balenaEtcher worked, Rufus/Unetbootin/UniversalUSB did not :-(
 
-== Configuration preparation ==
+## Configuration preparation
 1. in github repo create config.yaml - https://github.com/rancher/k3os
 2. shorten url using bit.ly
 3. on boot use command arguments
